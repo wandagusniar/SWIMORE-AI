@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Production build outputs
+dist/
+build/
+*.tsbuildinfo
+.vite/
+
+# Compiled Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/swimore-api.exe
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Architecture, Internal PRDs & Sensitive Planning Documents
+docs/
+scratch/
+
